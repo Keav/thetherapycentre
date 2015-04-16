@@ -1,0 +1,41 @@
+{
+  "name": "thetherapycentre",
+  "version": "0.0.1",
+  "description": "The Therapy Centre",
+  "private": true,
+  "homepage": "http://thetherapycentrefalfield.co.uk",
+  "author": {
+    "name": "Chris Keavey",
+    "email": "chris@chriskeavey.com",
+    "url": "http://chriskeavey.com"
+  },
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Keav/thetherapycentre.git"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-bump": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-hashres": "*",
+    "grunt-htmlhint": "*",
+    "grunt-newer": "*",
+    "grunt-responsive-images": "*",
+    "grunt-shell": "*",
+    "grunt-string-replace": "*",
+    "grunt-uncss": "*",
+    "matchdep": "*"
+  }
+}
