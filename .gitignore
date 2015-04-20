@@ -236,3 +236,5 @@ node_modules/
 .sass-cache
 config.php
 wp-config.php
+*.sql
+
