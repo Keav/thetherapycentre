@@ -224,6 +224,11 @@ pip-log.txt
 *.xls
 *.xlsx
 *.txt
+
+#############
+## My Unwanted Files
+#############
+
 *.db
 *.ffs_db
 *.ffs_gui
@@ -237,4 +242,4 @@ node_modules/
 config.php
 wp-config.php
 *.sql
-
+UpdraftPlus\ Backups/
