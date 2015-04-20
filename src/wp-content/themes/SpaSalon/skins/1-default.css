@@ -1,0 +1,174 @@
+body { background: url("1-default/body-bg.png") repeat  #FFFFFF; color: #6A6969;}
+a { color:#857341; text-decoration:none; }
+a:hover { color:#b25c01; text-decoration:none; }
+
+.content { background: none repeat  #FFFFFF; box-shadow: 0 0 5px #9B9B8A;}
+
+.post-content img.alignleft, .post-content img.alignright, .post-content img.aligncenter { border:1px solid #eee; padding:4px; }
+
+/*---------- TOP STRIP -------------*/
+.top-strip { background: none repeat ; }
+.top-strip p { color: #857341;}
+.top-strip a { color: #D06620;}
+.top-strip ul.top-strip-icons .twitter { background: url("../images/top-strip-icons.png") no-repeat ;}
+.top-strip ul.top-strip-icons .fb { background: url("../images/top-strip-icons.png") no-repeat scroll -30px 0 transparent;}
+.top-strip ul.top-strip-icons .linkedin { background: url("../images/top-strip-icons.png") no-repeat scroll -60px 0 transparent;}
+.top-strip ul.top-strip-icons .rss { background: url("../images/top-strip-icons.png") no-repeat scroll -90px 0 transparent;}
+
+
+/* -------- POST CONTENT ----------------- */
+.entry { border: 1px solid #CDC1A5; }
+.entry .post { border-bottom: 1px solid #D9D9D9;}
+.entry .post-meta { color: #AAA9A9; }
+.entry .post-meta span, .entry .post-meta a, .list .post .post-meta span, .list .post .post-meta a { color: #857341; }
+.entry .post-meta a:hover, .list .post .post-meta a:hover { color: #052b43; }
+.post-navigation .post-prev, .post-navigation a { color: #857341;}
+
+.entry .post-meta a:hover, .list .post .post-meta a:hover  { color:#b25c01; }
+
+.entry h1 { color: #564812;}
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { color: #857341;}
+
+.entry .post-content a { color: #857341;}
+.content-title h1 { color:#564812; background:url(1-default/entry-header-flower.png) repeat-x left bottom; }
+.list .post { border-bottom: 1px dotted #857341;}
+.list .post a.read_more { color: #fff; background: none repeat  #b25c01;}
+.list .post a.read_more:hover { color: #fff; background: none repeat  #857341;}
+
+.grid .post { background:#fdf5e3; border:1px solid #f6ebd0; border-right:1px solid #eedeb8; border-bottom:1px solid #eedeb8; }
+
+
+
+
+/*-------------- PRE-FOOTER --------------------- */
+.pre-footer { background: #F2F3E7 url(1-default/sepretor.png) repeat-y 460px top; border: 1px solid #DED9B9;}
+.pre-footer h3 { color: #857341; }
+.pre-footer .offers img { border: 1px solid #B5A38A; background: #FFFFFF; width:73px;}
+.pre-footer a { color: #D06620;}
+.pre-footer a:hover { color:#333; }
+.pre-footer .contact .phone { background: url("1-default/phone-bg.png") no-repeat; border-bottom: 1px solid #E1DBCB;}
+
+
+.pre-footer .contact .phone p { color: #9B7C5C;}
+
+
+.pre-footer .contact p { color: #765130;}
+
+
+/* SIDEBARS */
+
+
+.sidebar ul.menu li a {background: url("1-default/bullet.png") no-repeat scroll 0 12px transparent;}
+.sidebar ul.menu li:hover { background:url("1-default/menu-hover.png") repeat-x ;}
+.sidebar ul.menu li:hover > ul > li { background:#F9D998 url("1-default/menu-hover.png") repeat-x  ;
+border-left: 1px solid #D5BC8B;}
+.sidebar ul.menu li > ul > li:hover { background:#D5BC8B url("1-default/menu-hover-dark.png") repeat-x ;}
+.sidebar ul.menu li > ul > li:hover > a { color: #B25C01; text-shadow: 0 1px 0 #FFFFFF;}
+.sidebar a { color: #6A5A2E; text-shadow: 0 1px 0 #FFFFFF;}
+.sidebar a:hover { color: #B25C01;}
+
+.content .widget h3 { color:#000; }
+.widget h3, .widget-small h3 { color: #857341;}
+
+
+
+
+
+/*-------------- THEME SPECIFIC SIDEBAR ELEMENTS -------------------- */
+.newsletter_form { box-shadow: 0 0 5px #9B9B8A;}
+.online-booking { color: #F2EAB2; box-shadow: 0 1px 0 #A9A9A9;}
+.left .online-booking { background: url("1-default/booking-widget-curl.png") no-repeat scroll left top #857341;}
+.right .online-booking { background: url("1-default/booking-widget-curl-r.png") no-repeat scroll right top #857341;}
+
+.online-booking h3 { color: #FFFFFF; text-shadow: 0 1px 0 #111111;}
+.online-booking p { color: #F2EAB2;}
+.online-booking .book_submit { background: url("1-default/book_submit.png") repeat-x ; color: #755F13; text-shadow: 0 1px 0 #F2EAB2;}
+
+.sidebar #testimonials blockquote { background:url(1-default/body-bg.png) repeat left top;    }
+.content #testimonials blockquote { background:#fff;   }
+.pre-footer #testimonials blockquote { background:#E5EFF9;   }
+
+.content .pre-footer #testimonials blockquote { background:#F2F3E7;   }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	7. Comments
+/*-----------------------------------------------------------------------------------*/
+.comments h3 { color:#857341; }
+.comment { background:#f9f4e5 url(1-default/comment_line.png) repeat-y 100px 0px; border:1px solid #decfb2 !important; }
+
+.comment-meta {  border-bottom:1px solid #decfb2; color:#818181;}
+.comment-meta  a{ color:#857341; }
+.comment-meta  a:hover{ color:#222; }
+.comment .avatar { }
+a.comment-reply-link{ background:#857341 url(1-default/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018;}
+a.comment-reply-link:hover{ background:#645018 url(1-default/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018; }
+
+/* comment form -----------------------*/
+#respond h3 { border-bottom:1px solid #e5e5e5;}
+.comments p.commpadd .author {  background:url(1-default/i_user.png) no-repeat left top; }
+.comments p.commpadd .email2 { background:url(1-default/i_email.png) no-repeat left top; }
+.comments p.commpadd .site {  background:url(1-default/i_web.png) no-repeat left top; }
+.comments p.commpadd .comment2 { background:url(1-default/i_comment2.png) no-repeat left top; }
+.comments p.commpadd input { background:url(1-default/textfieldbg.png) no-repeat left top; border:none; color:#a6a6a6;  }
+#respond textarea { background:url(1-default/textarea.png) no-repeat left top; color:#a6a6a6;    }
+.comments .comment .text-right p a.comment-reply-link { background:url(1-default/buttonbg.png) repeat-x left top; }
+#submit{ background:url(1-default/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e;}
+#submit:hover{ background:url(1-default/submit_btn_h.png) repeat-x; }
+
+
+/* Appointment form -----------------------*/
+#frm_appointment .spannote { color:#b3a86a; }
+#frm_appointment #save_appointment_data { border:none; background:url(1-default/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e; -moz-box-shadow: 1px 1px 1px #444;
+-webkit-box-shadow: 1px 1px 1px #444;
+box-shadow: 1px 1px 1px #444;  }
+#frm_appointment #save_appointment_data:hover{ background:url(1-default/submit_btn_h.png) repeat-x; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   Calendar css 
+/*-----------------------------------------------------------------------------------*/
+#calendarDiv{ border:5px solid #e2d798; background-color: #fff; color:#8e6f2b; 
+-moz-box-shadow: 2px 2px 2px #666;
+-webkit-box-shadow: 2px 2px 2px #666;
+box-shadow: 2px 2px 2px #666; }
+#calendarDiv td { border:1px solid #e2d798; border-left:none; }
+#calendarDiv .selectBox{ border:none; background-color: #e2d798;  color:#8e6f2b; }
+#calendarDiv .selectBoxOver { border:none; background-color:#fff; color: #d25a09;  }
+#calendarDiv .topBar { background-color: #e2d798; }
+#calendarDiv .activeDay { color:#fff; background:#d35b0a; }
+#calendarDiv .oldDay { color: #b8b07e; pointer-events: none; background:#efede0; }
+#calendarDiv .todaysDate { background-color: #E9F1F6; }
+#calendarDiv .monthYearPicker { background-color: #fff; border:none; color: #8e6f2b;  -moz-box-shadow: 1px 1px 1px #666;
+-webkit-box-shadow: 1px 1px 1px #666;
+box-shadow: 1px 1px 1px #666; }
+#calendarDiv .monthYearPicker div { border-bottom:1px solid #e2d798; }
+#calendarDiv .monthYearActive { background-color:#f6e791; color: #d25a09; }
+
+
+/*-------------------- post navigation ---------- */
+#slider { border:1px solid #897551; }
+
+#mode{ background:url("1-default/mode.png") no-repeat ;}
+.post-prev{ background:url("1-default/post_prev.png") no-repeat 0 50%;}
+.post-next{ background:url("1-default/post_next.png") no-repeat 100% 50%;}
+
+.Navi .on { background:#b25c01; color:#fff; }
+
+.pagination a.nextpostslink{ background:url(1-default/nextpostslink.png) no-repeat right 3px; }
+.pagination a.previouspostslink{ background:url(1-default/previouspostslink.png) no-repeat left 3px;}
+
+/*-------------------- FOOTER ---------- */
+.footer p { color: #9B7C5C;}
+.footer a { color: #6A5A2E; text-decoration: none;}
+.footer a:hover { text-decoration: underline;}
+
+p.copyright { float: left;}
+.credits { float: right;}
+.credits a { background: url("../images/templatic-wordpress-themes.png") no-repeat ; display: inline-block; height: 20px; text-indent: -9999px; width: 80px;}
+
+
+#contact_frm .b_submit { background:url(1-default/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e; -moz-box-shadow: 1px 1px 1px #777;
+-webkit-box-shadow: 1px 1px 1px #777;
+box-shadow: 1px 1px 1px #777; }
+#contact_frm .b_submit:hover{ background:url(1-default/submit_btn_h.png) repeat-x; }

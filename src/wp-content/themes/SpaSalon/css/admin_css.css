@@ -1,0 +1,102 @@
+.fielddata
+{
+	border: solid 1px gray;
+	-moz-box-shadow: 5px 5px 5px #ccc;
+  	-webkit-box-shadow: 5px 5px 5px #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 5px #ccc;
+	overflow: hidden;
+	margin:20px;
+	width:90%;
+	font-size:11px;
+	padding:5px;
+	
+}
+
+.ferror{
+	padding:5px;
+	border-radius: 4px 4px 4px 4px;
+	border: 1px solid #F00;
+	background:#FCC;
+	margin-bottom:5px;
+	width:200px;
+}
+
+.noerror{
+	display:none;
+}
+
+ .submitedsuccess
+ {
+	 border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0 0 #FFFFE0;
+	border: 1px solid #E6DB55;
+	padding:4px;
+	font-size:12px;
+	font-weight:bold;
+	color:#A69B0C; margin-bottom:15px;
+ }
+ 
+ .subheader1
+ {
+	height:20px; width:90%; font-size:18px; color:#066; padding-top:10px; margin:5px 5px 0px 20px; text-align:left;
+	border-bottom:#063 2px solid;
+ }
+ 
+ .optsctvalue
+{
+ display:none;
+ visibility:hidden;
+	
+}
+.optsctvalue2
+{
+ display:block;
+ visibility:table;
+	
+}
+.spannote
+{
+	font-size:10px;
+	color:#333;
+	margin-top:5px;
+	display:block; padding-bottom:15px;
+	color:#777;
+	
+}
+
+.button_spacer { padding-left:115px; }
+.button_spacer2 { padding-left:130px; }
+.button_spacer3 { padding-left:120px; }
+.button_spacer4 { padding-left:155px; }
+.button_spacer5 { padding-left:105px; }
+.button_spacer6 { padding-left:167px; }
+
+.hours_close { margin-top:4px; margin-right:8px; display:block; float:left; }
+
+.cal_img { position:relative; }
+.cal_img img { position:absolute; right:8px; top:7px; }
+
+.cal_img2 { position:relative; }
+.cal_img2 img { position:absolute; right:8px; top:7px; }
+
+#framework_wrap input.button-framework { padding:6px 10px; }
+
+
+.dayback { background:#eee; font-weight:bold; padding:4px; }
+
+.email_setup td.hr {/* background:url(../images/hr.png) repeat-x left 20px;*/ height:50px; }
+
+#framework_wrap #header input.button-framework-imp { padding:6px 10px; }
+#framework_wrap #header input.button-framework { padding:6px 10px; }
+
+#framework_wrap input.button-framework-imp { padding:8px 20px; }
+#framework_wrap input.button-framework { padding:9px 20px; }
+
+.payment_option { display:block; clear:both; padding:5px 0; }
+
+.close_message { background:#fceebf; border:1px solid #d4c696; padding:10px; color:#917413; display:none; }
+
+
+#framework_wrap #content table { border:none; }

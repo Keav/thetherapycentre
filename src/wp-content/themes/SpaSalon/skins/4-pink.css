@@ -1,0 +1,157 @@
+body { background: url("4-pink/body-bg.png") repeat  0 0 #FFFFFF; color: #6A6969; }
+
+a, .grid .post .post-meta a { color:#d93b68; text-decoration:none; }
+a:hover,  .grid .post .post-meta a:hover { color:#76122f; text-decoration:none; }
+
+
+/*STRUCTURE ELEMENTS*/
+.content { background: none repeat 0 0 #FFFFFF; box-shadow: 0 0 5px #E07192; }
+
+.post-content img.alignleft, .post-content img.alignright, .post-content img.aligncenter { border:1px solid #eee; padding:4px; }
+
+
+/*TOP STRIP*/
+.top-strip { background: none repeat ; }
+.top-strip p { color: #ab4063; }
+.top-strip a { color: #dc2867; }
+.top-strip ul.top-strip-icons .twitter { background: url("../images/top-strip-icons.png") no-repeat ; }
+.top-strip ul.top-strip-icons .fb { background: url("../images/top-strip-icons.png") no-repeat  -30px 0 transparent; }
+.top-strip ul.top-strip-icons .linkedin { background: url("../images/top-strip-icons.png") no-repeat  -60px 0 transparent; }
+.top-strip ul.top-strip-icons .rss { background: url("../images/top-strip-icons.png") no-repeat  -90px 0 transparent; }
+
+/*POST CONTENT*/
+.entry { border: 1px solid #fad3e2; }
+.entry .post { border-bottom: 1px solid #D9D9D9; }
+.entry .post-meta { color: #AAA9A9; }
+.entry .post-meta span, .entry .post-meta a, .list .post .post-meta span, .list .post .post-meta a { color: #ab4063; }
+.entry .post-meta a:hover, .list .post .post-meta a:hover {  color:#76122f; }
+	
+.post-navigation .post-prev, .post-navigation a { color: #ab4063; }
+.entry h1 { color: #ab4063; }
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { color: #ab4063; }
+.entry .post-content a { color: #ab4063; }
+.entry .post-content a:hover { color: #76122f; }
+.content-title h1 { background:url(4-pink/entry-header-flower.png) repeat-x left bottom; color:#ab4063; }
+.list .post { border-bottom: 1px dotted #ab4063; }
+.list .post a.read_more { color: #f9dce4; background: #ab4063; }
+.list .post a.read_more:hover { color: #fff; background: #942947; }
+
+
+
+/*PRE-FOOTER*/
+.pre-footer { background: #f3e7eb; border: 1px solid #DED9B9; }
+.pre-footer h3 { color: #ab4063; }
+.pre-footer .leftie { border-right: 1px solid #DED9B9; }
+.pre-footer .offers img { border: 1px solid #B5A38A; background: #FFFFFF; }
+
+.pre-footer a { color: #dc2867; }
+.pre-footer .contact .phone { background: url("4-pink/phone-bg.png") no-repeat ; border-bottom: 1px solid #E1DBCB; }
+.pre-footer .contact .phone p { color: #c27f94; }
+.pre-footer .contact p { color: #765130; }
+
+/* SIDEBARS */
+.sidebar ul.menu li a {background: url("4-pink/bullet.png") no-repeat scroll 0 12px transparent;}
+.sidebar ul.menu li:hover { background:url("4-pink/menu-hover.png") repeat-x ;}
+.sidebar ul.menu li:hover > ul > li { background:#F9D998 url("4-pink/menu-hover.png") repeat-x  ;
+border-left: 1px solid #a34c65;}
+.sidebar ul.menu li > ul > li:hover { background:#D5BC8B url("4-pink/menu-hover-dark.png") repeat-x ;}
+.sidebar ul.menu li > ul > li:hover > a { color: #7A092B; text-shadow: 0 1px 0 #FFFFFF;}
+.sidebar a { color: #a34c65; text-shadow: 0 1px 0 #FFFFFF;}
+.sidebar a:hover { color: #7A092B;}
+
+.content .widget h3 { color:#000; }
+.widget h3, .widget-small h3 { color: #ab4063;}
+
+/*THEME SPECIFIC SIDEBAR ELEMENTS*/
+.newsletter_form { box-shadow: 0 0 5px #E07192; }
+.left .online-booking { background:url("4-pink/booking-widget-curl.png") no-repeat scroll left top #ab4063 ; color: #f9dce4; box-shadow: 0 1px 0 #A9A9A9;}
+.right .online-booking { background: url("4-pink/booking-widget-curl-r.png") no-repeat scroll right top #ab4063 ; color: #f9dce4; box-shadow: 0 1px 0 #A9A9A9;}
+
+
+.online-booking h3 { color: #FFFFFF; text-shadow: 0 1px 0 #111111; }
+.online-booking p { color: #f9dce4; }
+.online-booking .book_submit { background: url("4-pink/book_submit.png") repeat-x ; color: #755F13; text-shadow: 0 1px 0 #f9dce4; }
+.sidebar #testimonials blockquote { background:url(1-default/body-bg.png) repeat left top;    }
+.content #testimonials blockquote { background:#fff;   }
+.pre-footer #testimonials blockquote { background:#E5EFF9;   }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+.comments h3 { color:#d93b68; }
+.comment { background:#fcf5f7 url(4-pink/comment_line.png) repeat-y 100px 0px; border:1px solid #edc4d0 !important; }
+
+.comment-meta {  border-bottom:1px solid #edc4d0; color:#818181;}
+.comment-meta  a{ color:#d93b68; }
+.comment-meta  a:hover{ color:#222; }
+.comment .avatar { }
+a.comment-reply-link{ background:#d93b68 url(4-pink/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018;}
+a.comment-reply-link:hover{ background:#8b1a3a url(4-pink/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018; }
+
+/* comment form -----------------------*/
+#respond h3 { border-bottom:1px solid #e5e5e5;}
+.comments p.commpadd .author {  background:url(4-pink/i_user.png) no-repeat left top; }
+.comments p.commpadd .email2 { background:url(4-pink/i_email.png) no-repeat left top; }
+.comments p.commpadd .site {  background:url(4-pink/i_web.png) no-repeat left top; }
+.comments p.commpadd .comment2 { background:url(4-pink/i_comment2.png) no-repeat left top; }
+.comments p.commpadd input { background:url(4-pink/textfieldbg.png) no-repeat left top; border:none; color:#a6a6a6;  }
+#respond textarea { background:url(4-pink/textarea.png) no-repeat left top; color:#a6a6a6;    }
+.comments .comment .text-right p a.comment-reply-link { background:url(4-pink/buttonbg.png) repeat-x left top; }
+#submit{ background:url(4-pink/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e;}
+#submit:hover{ background:url(4-pink/submit_btn_h.png) repeat-x; }
+
+
+/* Appointment form -----------------------*/
+#frm_appointment .spannote { color:#e5a7bb; }
+#frm_appointment table td.label { color:#fff; }
+#frm_appointment #save_appointment_data { border:none; background:url(4-pink/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e; -moz-box-shadow: 1px 1px 1px #333;
+-webkit-box-shadow: 1px 1px 1px #333;
+box-shadow: 1px 1px 1px #333; }
+#frm_appointment #save_appointment_data:hover{ background:url(4-pink/submit_btn_h.png) repeat-x; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   Calendar css 
+/*-----------------------------------------------------------------------------------*/
+#calendarDiv{ border:5px solid #e3b0c1; background-color: #fff; color:#AB4063; 
+-moz-box-shadow: 2px 2px 2px #666;
+-webkit-box-shadow: 2px 2px 2px #666;
+box-shadow: 2px 2px 2px #666; }
+#calendarDiv td { border:1px solid #e3b0c1; border-left:none; }
+#calendarDiv .selectBox{ border:none; background-color: #e3b0c1;  color:#AB4063; }
+#calendarDiv .selectBoxOver { border:none; background-color:#fff; color: #d25a09;  }
+#calendarDiv .topBar { background-color: #e3b0c1; }
+#calendarDiv .activeDay { color:#fff; background:#AB4063; }
+#calendarDiv .oldDay { color: #d1a1b1; pointer-events: none; background:#e9d2da; }
+#calendarDiv .todaysDate { background-color: #E9F1F6; }
+#calendarDiv .monthYearPicker { background-color: #fff; border:none; color: #AB4063;  -moz-box-shadow: 1px 1px 1px #666;
+-webkit-box-shadow: 1px 1px 1px #666;
+box-shadow: 1px 1px 1px #666; }
+#calendarDiv .monthYearPicker div { border-bottom:1px solid #e3b0c1; }
+#calendarDiv .monthYearActive { background-color:#d8f4d6; color: #333; }
+
+
+/*FOOTER*/
+.footer p { color: #c27f94; }
+.footer a { color: #a34c65; text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+p.copyright { float: left; }
+.credits { float: right; }
+.credits a { background: url("../images/templatic-wordpress-themes.png") no-repeat ; display: inline-block; height: 20px; text-indent: -9999px; width: 80px; }
+
+/*-------------------- post navigation ---------- */
+#mode{ background:url("4-pink/mode.png") no-repeat ;}
+.post-prev{ background:url("4-pink/post_prev.png") no-repeat 0 50%;}
+.post-next{ background:url("4-pink/post_next.png") no-repeat 100% 50%;}
+
+.Navi .on { background:#d93b68; color:#fff; }
+
+.pagination .nextpostslink{ background:url("4-pink/nextpostslink.png") no-repeat right 3px; }
+.pagination .previouspostslink{ background:url("4-pink/previouspostslink.png") no-repeat left 3px;}
+
+
+#contact_frm .b_submit { background:url(4-pink/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e; -moz-box-shadow: 1px 1px 1px #777;
+-webkit-box-shadow: 1px 1px 1px #777;
+box-shadow: 1px 1px 1px #777; }
+#contact_frm .b_submit:hover{ background:url(4-pink/submit_btn_h.png) repeat-x; }

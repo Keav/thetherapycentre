@@ -1,0 +1,159 @@
+body { background: url("2-blue/body-bg.png") repeat scroll 0 0 #FFFFFF; 	color: #6A6969; }
+a, .grid .post .post-meta a { color:#216fa0; text-decoration:none; }
+a:hover,  .grid .post .post-meta a:hover { color:#042d47; text-decoration:none; }
+
+
+.post-content img.alignleft, .post-content img.alignright, .post-content img.aligncenter { border:1px solid #eee; padding:4px; }
+
+/* -------- STRUCTURE ELEMENTS  --------  */
+.content { background: #FFFFFF; 	box-shadow: 0 0 5px #5894A7; }
+.sidebar { width: 225px; 	padding-top: 20px; }
+
+.online-booking label  { color:#b2d3f2; }
+
+/* -------- TOP STRIP -------- */
+.top-strip { background: transparent; }
+.top-strip p { color: #216fa0; }
+.top-strip a { color: #154360; }
+.top-strip ul.top-strip-icons .twitter { background: url("../images/top-strip-icons.png") no-repeat scroll 0 0 transparent; }
+.top-strip ul.top-strip-icons .fb { background: url("../images/top-strip-icons.png") no-repeat scroll -30px 0 transparent; }
+.top-strip ul.top-strip-icons .linkedin { background: url("../images/top-strip-icons.png") no-repeat scroll -60px 0 transparent; }
+.top-strip ul.top-strip-icons .rss { background: url("../images/top-strip-icons.png") no-repeat scroll -90px 0 transparent; }
+
+/* -------- POST CONTENT  -------- */
+.entry { border: 1px solid #b9daee; }
+.entry .post { border-bottom: 1px solid #D9D9D9; }
+.entry .post-meta { color: #AAA9A9; }
+.entry .post-meta span, .entry .post-meta a, .list .post .post-meta span, .list .post .post-meta a { color: #216fa0; }
+.entry .post-meta a:hover, .list .post .post-meta a:hover { color: #042d47; }
+
+
+.post-navigation .post-prev, .post-navigation a { color: #216fa0; }
+.entry h1 { color: #216fa0; }
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { color: #216fa0; }
+.entry .post-content a { color: #216fa0; }
+.entry .post-content a:hover { color: #042d47; }
+.content-title h1 { background:url(2-blue/entry-header-flower.png) repeat-x left bottom;    color:#216fa0; }
+.list .post { border-bottom: 1px dotted #216fa0; }
+.list .post a.read_more { color: #b2d3f2; 	background:#216fa0; }
+.list .post a.read_more:hover { color: #fff; 	background: #042d47; }
+
+.grid .post { background:#e9f4fb; border:1px solid #c3dbe9; border-right:1px solid #adc3d1; border-bottom:1px solid #adc3d1; }
+
+
+
+/*  -------- PRE-FOOTER  --------*/
+.pre-footer { background: #e5eff9; 	border: 1px solid #b9d0de; }
+.pre-footer h3 { color: #216fa0; }
+.pre-footer .leftie { border-right: 1px solid #b9d0de; }
+.pre-footer .offers img { border: 1px solid #B2D5E8; 	background: #FFFFFF; }
+.pre-footer a { color: #154360; }
+.pre-footer .contact .phone { background: url("2-blue/phone-bg.png") no-repeat scroll 0 0 transparent; 	border-bottom: 1px solid #E1DBCB; }
+.pre-footer .contact .phone p { color: #7fa6c2; }
+.pre-footer .contact p { color: #5c80a9; }
+
+/*  -------- SIDEBARS  --------*/
+
+
+
+.sidebar ul.menu li a {background: url("2-blue/bullet.png") no-repeat scroll 0 12px transparent;}
+.sidebar ul.menu li:hover { background:url("2-blue/menu-hover.png") repeat-x ;}
+.sidebar ul.menu li:hover > ul > li { background:#F9D998 url("2-blue/menu-hover.png") repeat-x  ;
+border-left: 1px solid #216fa0;}
+.sidebar ul.menu li > ul > li:hover { background:#D5BC8B url("2-blue/menu-hover-dark.png") repeat-x ;}
+.sidebar ul.menu li > ul > li:hover > a { color: #054771; text-shadow: 0 1px 0 #E5EFF9;}
+.sidebar a { color: #216fa0; text-shadow: 0 1px 0 #E5EFF9;}
+.sidebar a:hover { color: #054771;}
+
+.content .widget h3 { color:#000; }
+.widget h3, .widget-small h3 { color: #216fa0;}
+
+/*  -------- THEME SPECIFIC SIDEBAR ELEMENTS -------- */
+.newsletter_form { box-shadow:0 0 5px #5894A7; }
+.left .online-booking { background:url("2-blue/booking-widget-curl.png") no-repeat scroll left top #216fa0 ; }
+.right .online-booking { background: url("2-blue/booking-widget-curl-r.png") no-repeat scroll right top #216fa0 ; }
+.online-booking h3 { color: #FFFFFF; 	text-shadow: 0 1px 0 #111111; }
+.online-booking p { color: #b2d3f2; }
+.online-booking .book_submit { background: url("2-blue/book_submit.png") repeat-x scroll 0 0 transparent; 	color: #755F13; 	text-shadow: 0 1px 0 #E8E8E8; }
+.sidebar #testimonials blockquote { background:url(1-default/body-bg.png) repeat left top;    }
+.content #testimonials blockquote { background:#fff;   }
+.pre-footer #testimonials blockquote { background:#E5EFF9;   }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Comments
+/*-----------------------------------------------------------------------------------*/
+.comments h3 { color:#216FA0; }
+.comment { background:#e7f3fa url(2-blue/comment_line.png) repeat-y 100px 0px; border:1px solid #b4d5e9 !important; }
+
+.comment-meta {  border-bottom:1px solid #b4d5e9; color:#818181;}
+.comment-meta  a{ color:#216FA0; }
+.comment-meta  a:hover{ color:#222; }
+.comment .avatar { }
+a.comment-reply-link{ background:#216FA0 url(2-blue/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018;}
+a.comment-reply-link:hover{ background:#103d5a url(2-blue/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018; }
+
+/* comment form -----------------------*/
+#respond h3 { border-bottom:1px solid #e5e5e5;}
+.comments p.commpadd .author {  background:url(2-blue/i_user.png) no-repeat left top; }
+.comments p.commpadd .email2 { background:url(2-blue/i_email.png) no-repeat left top; }
+.comments p.commpadd .site {  background:url(2-blue/i_web.png) no-repeat left top; }
+.comments p.commpadd .comment2 { background:url(2-blue/i_comment2.png) no-repeat left top; }
+.comments p.commpadd input { background:url(2-blue/textfieldbg.png) no-repeat left top; border:none; color:#a6a6a6;  }
+#respond textarea { background:url(2-blue/textarea.png) no-repeat left top; color:#a6a6a6;    }
+.comments .comment .text-right p a.comment-reply-link { background:url(2-blue/buttonbg.png) repeat-x left top; }
+#submit{ background:url(2-blue/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e;}
+#submit:hover{ background:url(2-blue/submit_btn_h.png) repeat-x; }
+
+
+/* Appointment form -----------------------*/
+#frm_appointment .spannote { color:#76aed1; }
+#frm_appointment table td.label, #frm_appointment table td.label2 { color:#fff; }
+#frm_appointment #save_appointment_data { border:none; background:url(2-blue/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e; -moz-box-shadow: 1px 1px 1px #444;
+-webkit-box-shadow: 1px 1px 1px #444;
+box-shadow: 1px 1px 1px #444;}
+#frm_appointment #save_appointment_data:hover{ background:url(2-blue/submit_btn_h.png) repeat-x; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   Calendar css 
+/*-----------------------------------------------------------------------------------*/
+#calendarDiv{ border:5px solid #98c7e2; background-color: #fff; color:#598ba8; 
+-moz-box-shadow: 2px 2px 2px #666;
+-webkit-box-shadow: 2px 2px 2px #666;
+box-shadow: 2px 2px 2px #666; }
+#calendarDiv td { border:1px solid #98c7e2; border-left:none; }
+#calendarDiv .selectBox{ border:none; background-color: #98c7e2;  color:#598ba8; }
+#calendarDiv .selectBoxOver { border:none; background-color:#fff; color: #0c5580;  }
+#calendarDiv .topBar { background-color: #98c7e2; }
+#calendarDiv .activeDay { color:#fff; background:#216FA0; }
+#calendarDiv .oldDay { color: #99b0bd; pointer-events: none; background:#d8eaf5; }
+#calendarDiv .todaysDate { background-color: #E9F1F6; }
+#calendarDiv .monthYearPicker { background-color: #fff; border:none; color: #598ba8;  -moz-box-shadow: 1px 1px 1px #666;
+-webkit-box-shadow: 1px 1px 1px #666;
+box-shadow: 1px 1px 1px #666; }
+#calendarDiv .monthYearPicker div { border-bottom:1px solid #98c7e2; }
+#calendarDiv .monthYearActive { background-color:#a6ddfc; color: #0c5580; }
+
+/*-------- FOOTER --------*/
+.footer p { color: #7fa6c2; }
+.footer a { color: #216fa0; 	text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+p.copyright { float: left; }
+.credits { float: right; }
+.credits a { background: url("../images/templatic-wordpress-themes.png") no-repeat scroll 0 0 transparent; 	display: inline-block; 	height: 20px; 	text-indent: -9999px; 	width: 80px; }
+
+/*-------------------- post navigation ---------- */
+#mode{ background:url("2-blue/mode.png") no-repeat scroll 0 0 transparent;}
+.post-prev{ background:url("2-blue/post_prev.png") no-repeat 0 50%;}
+.post-next{ background:url("2-blue/post_next.png") no-repeat 100% 50%;}
+
+.Navi .on { background:#216fa0; color:#fff; }
+
+.pagination .nextpostslink{ background:url("2-blue/nextpostslink.png") no-repeat right 3px; }
+.pagination .previouspostslink{ background:url("2-blue/previouspostslink.png") no-repeat left 3px;}
+
+#contact_frm .b_submit { background:url(2-blue/submit_btn.png) repeat-x; color:#fff; text-shadow:1px 1px 1px #40577e; -moz-box-shadow: 1px 1px 1px #777;
+-webkit-box-shadow: 1px 1px 1px #777;
+box-shadow: 1px 1px 1px #777; }
+#contact_frm .b_submit:hover{ background:url(2-blue/submit_btn_h.png) repeat-x; }
