@@ -1,0 +1,155 @@
+/*
+
+Theme Name: Therapy
+Description: Child theme based on the parent theme SpaSalon
+Author: Chris Keavey
+Version: 0.0.1
+Template: SpaSalon
+
+ */
+
+@import url('../SpaSalon/style.css');
+
+body,
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-size: 100%;
+  }
+
+/*0.75      12px
+0.875     14px
+1         16px
+1.125     18px
+1.25      20px
+1.5       24px*/
+
+body {
+/*  font-size:16px;*/
+  font-size: 1rem;
+  line-height: 1.4;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  padding: 0;
+}
+
+#container, body .footer {
+  background: rgba(255,255,255,0.5);
+}
+
+.top-strip {
+  width:725px;
+}
+
+body .top-strip ul.top-strip-icons .fb {
+  background-position: -45px 0;
+  background-size: 160px 24px;
+}
+
+.top-strip ul.top-strip-icons a {
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar {
+  padding-top: 20px;
+  width:254px;
+}
+
+.banner_img {
+  width: 695px;
+}
+
+.logo img {
+  max-width: 290px;
+  width: 203px;
+  margin-bottom: 35px;
+  margin-left: 22px;
+}
+
+.logo a {
+  width: 225px;
+}
+
+.sidebar ul.menu li > ul {
+  margin-top: -37px;
+}
+
+.sidebar ul.menu li > ul {
+  left: 256px;
+}
+
+.sidebar ul.menu li a {
+   color: #7640c8 !important;
+   line-height: 17px;
+}
+
+.sidebar ul.menu li a:hover {
+   color: #fff !important;
+}
+
+.sidebar ul.sub-menu li a {
+  color: #fff !important;
+}
+
+.sidebar ul.sub-menu li a:hover {
+  color: #7640c8 !important;
+}
+
+.online-booking {
+  position:relative;
+  top: 33px;
+  /*margin: 0;*/
+}
+
+#frm_appointment table td input {
+  width: 219px;
+}
+
+#frm_appointment table td input {
+  height: 27px;
+  padding: 4px;
+}
+
+#frm_appointment table td select {
+  width: 219px;
+}
+
+#frm_appointment .cal_img img {
+  right: 20px;
+}
+
+#frm_appointment #save_appointment_data {
+  margin-top: 16px;
+}
+
+.bottom_in {
+  padding: 0;
+}
+
+.footer_in {
+  position: relative;
+  top: 20px;
+}
+
+.footer p.copyright {
+  float: right;
+  padding-right: 20px;
+  color: #444;
+  font-size: 0.75rem;
+}
