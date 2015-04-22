@@ -135,8 +135,8 @@ a:hover strong {
     }
 	.top-info { position:relative; }
 	.theme_guide { position:absolute; left:300px; top:0px; }
-	.support_forum { position:absolute; left:170px; top:0px; } 
-	
+	.support_forum { position:absolute; left:170px; top:0px; }
+
     #framework_wrap #content_wrap .info input.add-item {
       float: left;
       margin-left: 20px;
@@ -215,8 +215,8 @@ a:hover strong {
     border-color: #333;
 	background: #41741f;
   }
-  
-  
+
+
   #framework_wrap a.button-framework {
     cursor: pointer;
     font-size: 12px;
@@ -241,7 +241,7 @@ a:hover strong {
     color: #000;
     border-color: #666;
   }
-  
+
   /* Content Inner */
   #framework_wrap #content {
     padding: 0;
@@ -331,7 +331,7 @@ a:hover strong {
         -moz-border-radius: 4px;
         border-radius: 4px;
       }
-        
+
         #framework_wrap #content .has-table table th {
           background: #f1f1f1;
           background-image: -moz-linear-gradient(top, #f9f9f9, #f1f1f1);
@@ -469,7 +469,7 @@ a:hover strong {
           width: 540px;
         }
         #framework_wrap #content label {
-          
+
         }
         .input_wrap {
           padding: 4px 10px 12px 0;
@@ -587,11 +587,11 @@ a:hover strong {
           border-color: #bbb #eee #eee #bbb;
           color: #333;
         }
-        #framework_wrap *:focus { 
-      	 outline: none; 
+        #framework_wrap *:focus {
+      	 outline: none;
       	}
-        #framework_wrap *::-moz-focus-inner { 
-      	 border: none; 
+        #framework_wrap *::-moz-focus-inner {
+      	 border: none;
       	}
       	.bottom_btn {
           float: left;
@@ -690,8 +690,8 @@ a:hover strong {
 .options_tabs {
   display: none;
 }
-.ui-tabs { 
-  zoom: 1; 
+.ui-tabs {
+  zoom: 1;
   background: url(../images/tabs_bg.png) repeat-y 0 0;
 }
 .ui-tabs .options_tabs {
@@ -706,23 +706,23 @@ a:hover strong {
 .ui-tabs-panel h2 {
   display: none;
 }
-.ui-tabs .ui-tabs-nav { 
-  list-style: none; 
-  position: relative; 
-  float: left; 
+.ui-tabs .ui-tabs-nav {
+  list-style: none;
+  position: relative;
+  float: left;
   width: 148px;
   word-wrap: break-word;
 }
-.ui-tabs .ui-tabs-nav li { 
-  position: relative; 
+.ui-tabs .ui-tabs-nav li {
+  position: relative;
   float: left;
   display: block;
   margin: 0;
   padding: 0;
   overflow: visible;
 }
-.ui-tabs .ui-tabs-nav li a { 
-  float: left; 
+.ui-tabs .ui-tabs-nav li a {
+  float: left;
   text-decoration: none;
   display: block;
   width: 127px;
@@ -736,31 +736,31 @@ a:hover strong {
   font-size: 11px;
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover { 
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:hover {
   background: #fff;
   color: #d54e45;
   width: 128px;
 }
-.ui-tabs .ui-tabs-nav li.ui-state-disabled a, 
-.ui-tabs .ui-tabs-nav li.ui-state-processing a { 
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
   cursor: text;
 }
-.ui-tabs .ui-tabs-nav li a, 
-.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { 
-  cursor: pointer; 
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+  cursor: pointer;
 }
 .ui-tabs .ui-tabs-nav li.ui-state-hover a {
   background-color: #e2e2e2;
   color: #555;
 }
-.ui-tabs .ui-tabs-panel { 
+.ui-tabs .ui-tabs-panel {
   display: block;
-  float: right; 
+  float: right;
   width: 595px;
   min-height: 400px;
 }
-.ui-tabs .ui-tabs-hide { 
-  display: none !important; 
+.ui-tabs .ui-tabs-hide {
+  display: none !important;
 }
 .options_tabs li.ui-tabs-selected span {
   position: absolute;
@@ -966,5 +966,22 @@ div.file_wrap {
     	opacity: 0;
     	z-index: 2;
     }
-	
+
 	.button_bar { position:absolute; left:360px; top:22px; }
+
+/*
+MY OWN TEMPLATIC BACKEND OVERRIDE
+ */
+
+body #framework_wrap #header, #framework_wrap #content_wrap, body #framework_wrap #content_wrap .info, body #framework_wrap #content, body #framework_wrap #content_wrap .bottom {
+  width: 985px;
+}
+
+.ui-tabs .ui-tabs-panel {
+  float: left;
+  width: 795px;
+}
+
+/*
+END OF MY OWN OVERRIDE
+ */

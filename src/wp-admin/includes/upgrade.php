@@ -2168,7 +2168,7 @@ function pre_schema_upgrade() {
 		$wpdb->query("DELETE o1 FROM $wpdb->options AS o1 JOIN $wpdb->options AS o2 USING (`option_name`) WHERE o2.option_id > o1.option_id");
 
 		// Drop the old primary key and add the new.
-		$wpdb->query("ALTER TABLE $wpdb->options DROP PRIMARY KEY, ADD PRIMARY KEY  (option_id)");
+		$wpdb->query("ALTER TABLE $wpdb->options DROP PRIMARY KEY, ADD PRIMARY KEY(option_id)");
 
 		// Drop the old option_name index. dbDelta() doesn't do the drop.
 		$wpdb->query("ALTER TABLE $wpdb->options DROP INDEX option_name");
@@ -2180,7 +2180,7 @@ function pre_schema_upgrade() {
 		// Upgrade verions prior to 3.7
 		if ( $wp_current_db_version < 25179 ) {
 			// New primary key for signups.
-			$wpdb->query( "ALTER TABLE $wpdb->signups ADD signup_id BIGINT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY  FIRST" );
+			$wpdb->query( "ALTER TABLE $wpdb->signups ADD signup_id BIGINT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST" );
 			$wpdb->query( "ALTER TABLE $wpdb->signups DROP INDEX domain" );
 		}
 
