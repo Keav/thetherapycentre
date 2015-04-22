@@ -207,7 +207,8 @@ function Appointment_settings_add_admin_menu()
 			  }
 
 			  $table_pay = $wpdb->prefix . "appointment_pay_details";
-			  if($wpdb->get_var("SHOW TABLES LIKE \"$table_availability\"") != $table_pay)
+			  // if($wpdb->get_var("SHOW TABLES LIKE \"$table_availability\"") != $table_pay) << Is this "$table_availability" causing errors? Shouldn't it be "$table_pay"?
+        if($wpdb->get_var("SHOW TABLES LIKE \"$table_pay\"") != $table_pay)
 			  {
 			   $sqlpayfees = "CREATE TABLE " . $table_pay . " (
 				  pay_id mediumint(9) NOT NULL AUTO_INCREMENT,
@@ -218,8 +219,6 @@ function Appointment_settings_add_admin_menu()
 				);";
 			   require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 			   dbDelta($sqlpayfees);
-
-
 			  }
 
 			  $table_closedate = $wpdb->prefix . "appointment_closed_date";
@@ -233,16 +232,14 @@ function Appointment_settings_add_admin_menu()
 				);";
 			   require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 			   dbDelta($sqlclosedate);
-
 			  }
 
-
-
-
-			    add_option("appointment_db_version", "2.0");
+        add_option("appointment_db_version", "2.0");
 				add_option("appointment_security_plugin","5");
 				add_option("appointment_security_settings","14");
-				$wpdb->query($sql);
+        if (isset($sql)) { // Fix for undefined variable "sql"
+				$wpdb->query($sql); // Above was also causing empty query errors
+        }
 				update_option("appointment_db_version", "2.0");
 
 function Appointment()
