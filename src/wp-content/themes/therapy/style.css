@@ -154,12 +154,6 @@ body .top-strip ul.top-strip-icons .fb {
   font-size: 0.75rem;
 }
 
-
-/*
-TEMPLATIC ADMIN BACKEND
- */
-
-body #framework_wrap #header, body #framework_wrap #content_wrap .info, body #framework_wrap #content, body #framework_wrap #content_wrap .bottom {
-  width: 885px;
+.post-content a {
+  color: #7640c8 !important;
 }
-

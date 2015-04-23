@@ -9,16 +9,16 @@
     <?php do_action('templ_head_css');?>
 	<?php
     wp_enqueue_script('jquery');
-    wp_enqueue_script('cycle', get_template_directory_uri() . '/js/jquery.cycle.all.min.js', 'jquery', false);	
+    wp_enqueue_script('cycle', get_template_directory_uri() . '/js/jquery.cycle.all.min.js', 'jquery', false);
     //wp_enqueue_script('cookie', get_template_directory_uri() . '/js/jquery.cookie.js', 'jquery', true);
 	 wp_enqueue_script('nivoslider', get_template_directory_uri() . '/js/slider.js', 'jquery', false);
 
     if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
-    if(is_home()){ // donothing 
+    if(is_home()){ // donothing
 	} else {
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', 'jquery', false);
 	}
-	
+
     do_action('templ_head_js');
 	wp_head();
 	?>
@@ -35,14 +35,14 @@
 <!-- Container -->
 <div id="container" class="clear">
 
- <?php 
+ <?php
 if ( is_home() ) { ?>
-	
+
     <div class="top-strip  Page 2 column - Left Sidebar">
 <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('top_strip')){?><?php } else {?>  <?php }?>
 </div>
-	
-   <?php } else { 
+
+   <?php } else {
 ?>
 <div class="top-strip  <?php if(get_option('ptthemes_page_layout')) { ?> <?php echo get_option('ptthemes_page_layout'); ?> <?php } ?>">
 <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('top_strip')){?><?php } else {?>  <?php }?>
@@ -50,7 +50,7 @@ if ( is_home() ) { ?>
 
 
  <?php }
-?>   
-   
-   
+?>
+
+
 <?php /*?><?php */?>

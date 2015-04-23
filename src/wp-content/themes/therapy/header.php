@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en-GB">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, minimal-ui">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
+  <link rel="alternate" hreflang="en-GB" href="http://thetherapycentrefalfield.co.uk" />
+
+  <title>The Therapy Centre</title>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
     <title><?php wp_title ( '|', true,'right' ); ?></title>
    <?php do_action('templ_head_meta');?>
@@ -28,6 +31,16 @@
 	wp_head();
 	?>
      <script src="<?php bloginfo('template_directory'); ?>/js/cookie_jquery.js" type="text/javascript" ></script>
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42923324-6', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body <?php body_class(); ?>>
 <?php templ_body_start(); // Body Start hooks?>
