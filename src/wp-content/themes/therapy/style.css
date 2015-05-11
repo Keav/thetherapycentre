@@ -157,3 +157,7 @@ body .top-strip ul.top-strip-icons .fb {
 .post-content a {
   color: #7640c8 !important;
 }
+
+.slideshow_container_style-light .slideshow_slide {
+  margin-right: 0 !important;
+}
