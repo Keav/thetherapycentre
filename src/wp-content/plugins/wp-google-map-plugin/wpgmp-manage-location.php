@@ -6,7 +6,7 @@
  * @package Maps
  */
 class Wpgmp_Location_Table extends WP_List_Table {
-    var $table_data;
+    var $table_data,$found_data;
     function __construct(){
     global $status, $page,$wpdb;
         parent::__construct( array(
@@ -125,6 +125,14 @@ function prepare_items() {
   $this->_column_headers = array( $columns, $hidden, $sortable );
   usort( $this->table_data, array( &$this, 'usort_reorder' ) );
   
+  $user = get_current_user_id();
+  $screen = get_current_screen();
+
+  $option = $screen->get_option('per_page', 'option');
+  $screen_per_page = get_user_meta($user, $option, true);
+  if(!empty($screen_per_page) && $screen_per_page > 0 )
+   $per_page = $screen_per_page;
+  else
   $per_page = 10;
   $current_page = $this->get_pagenum();
   $total_items = count( $this->table_data );
