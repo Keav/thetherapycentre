@@ -1,0 +1,112 @@
+# Translation of Plugins - Google Authenticator - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Google Authenticator - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-17 19:25:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Google Authenticator - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://henrik.schack.dk/"
+msgstr "http://henrik.schack.dk/"
+
+#. Author of the plugin/theme
+msgid "Henrik Schack"
+msgstr "Henrik Schack"
+
+#. Description of the plugin/theme
+msgid "Two-Factor Authentication for WordPress using the Android/iPhone/Blackberry app as One Time Password generator."
+msgstr "Twee-Factor Authenticatie voor WordPress, gebruikmakend van de Android/iPhone/Blackberry app als generator van wachtwoorden voor eenmalig gebruik."
+
+#. Plugin URI of the plugin/theme
+msgid "http://henrik.schack.dk/google-authenticator-for-wordpress"
+msgstr "http://henrik.schack.dk/google-authenticator-for-wordpress"
+
+#. Plugin Name of the plugin/theme
+msgid "Google Authenticator"
+msgstr "Google Authenticator"
+
+#: google-authenticator.php:478
+msgid "Hide settings from user"
+msgstr "Verberg instellingen voor gebruiker"
+
+#: google-authenticator.php:333
+msgid " Password is not stored in cleartext, this is your only chance to see it."
+msgstr "Wachtwoord wordt niet opgeslagen als cleartext, dit is jouw enige kans om het te zien."
+
+#: google-authenticator.php:332
+msgid "Create new password"
+msgstr "Maak nieuw wachtwoord"
+
+#: google-authenticator.php:324
+msgid " Enabling an App password will decrease your overall login security."
+msgstr "Activeren van een App wachtwoord zal de algehele beveiliging van de login verminderen."
+
+#: google-authenticator.php:322
+msgid "Enable App password"
+msgstr "Activeer App wachtwoord"
+
+#: google-authenticator.php:317
+msgid "Scan this with the Google Authenticator app."
+msgstr "Scan dit met de Google Authenticator app."
+
+#: google-authenticator.php:308
+msgid "Show/Hide QR code"
+msgstr "Toon/verberg QR-code"
+
+#: google-authenticator.php:307
+msgid "Create new secret"
+msgstr "Maak een nieuw geheim"
+
+#: google-authenticator.php:304
+msgid "Secret"
+msgstr "Geheim"
+
+#: google-authenticator.php:300
+msgid " Description that you'll see in the Google Authenticator app on your phone."
+msgstr "De beschrijving die je zal zien in de Google Authenticator app op jouw telefoon."
+
+#: google-authenticator.php:299
+msgid "Description"
+msgstr "Beschrijving"
+
+#: google-authenticator.php:294
+msgid " Relaxed mode allows for more time drifting on your phone clock (&#177;4 min)."
+msgstr " Relaxed modus staat meer tijd-afwijking in de klok van jouw telefoon toe (&#177;4 min)."
+
+#: google-authenticator.php:292
+msgid "Relaxed mode"
+msgstr "Relaxed modus"
+
+#: google-authenticator.php:284 google-authenticator.php:485
+msgid "Active"
+msgstr "Actief"
+
+#: google-authenticator.php:279 google-authenticator.php:473
+msgid "Google Authenticator Settings"
+msgstr "Google Authenticator Instellingen"
+
+#: google-authenticator.php:276
+msgid "WordPressBlog"
+msgstr "WordPressBlog"
+
+#: google-authenticator.php:236
+msgid "<strong>ERROR</strong>: The Google Authenticator code is incorrect or has expired."
+msgstr "<strong>Fout</strong>: De Google Authenticator code is fout of is verlopen."
+
+#: google-authenticator.php:233
+msgid "<strong>ERROR</strong>: The Google Authenticator password is incorrect."
+msgstr "<strong>Fout</strong>: Het Google Authenticator wachtwoord is fout."
+
+#: google-authenticator.php:168
+msgid "Google Authenticator code"
+msgstr "Google Authenticator code"
+
+#: google-authenticator.php:168
+msgid "If you don't have Google Authenticator enabled for your WordPress account, leave this field empty."
+msgstr "Laat dit veld leeg als je Google Authenticator niet hebt geactiveerd voor jouw WordPress account."
